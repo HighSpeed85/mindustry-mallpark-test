@@ -1,0 +1,11 @@
+name: mallpark-exdep
+displayName: "Mallpark Experimental Department"
+author: HighSpeed85
+description:
+'''
+  You shouldn't be here, you know.
+'''
+version: "0.0.0"
+minGameVersion: 146
+subtitle: "HEY HEY HEY"
+hidden: false
