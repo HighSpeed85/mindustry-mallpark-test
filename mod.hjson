@@ -5,7 +5,7 @@ description:
 '''
   You shouldn't be here, you know.
 '''
-version: "2001.9.11"
+version: "0.0.0"
 minGameVersion: 146
 subtitle: "HEY HEY HEY"
 hidden: false
