@@ -1,4 +1,5 @@
 # Malldustry Experimental Department
-You should not be here. Yeah, it's public, but still.  
+its public out of necessity but ohhhhhhhhhh boy this is gonna be embarassing  
 
-A seperate version of Malldustry, used for testing stuff, and where all the stuff I burnt out on go. Also chuck WIP sprites and other stuff in here, if need be.
+A seperate version of Malldustry, used for testing stuff, and where stuff I stopped working on go to die. I also chuck WIP sprites and other stuff in here, if need be.  
+Actual mod: https://github.com/HighSpeed85/mindustry-mallpark
