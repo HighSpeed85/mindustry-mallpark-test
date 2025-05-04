@@ -20,6 +20,10 @@ liquidCapacity: 25
 range: 200
 recoil: 0
 rotateSpeed: 5
+reload: 30
+consumeAmmoOnce: false
+shots: 8
+shotDelay: 5
 ammoTypes: {
 	copper: placeholder
 }
