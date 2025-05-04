@@ -22,6 +22,19 @@ recoil: 0
 rotateSpeed: 5
 reload: 30
 consumeAmmoOnce: false
+shoot: {
+	type: ShootBarrel
+	barrels: [
+	0,0,0
+	0,0,0
+	0,0,0
+	0,0,0
+	0,0,0
+	0,0,0
+	0,0,0
+	0,0,0
+	]
+}
 shots: 8
 shotDelay: 5
 ammoTypes: {
