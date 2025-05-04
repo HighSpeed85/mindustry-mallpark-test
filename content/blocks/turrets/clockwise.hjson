@@ -20,3 +20,6 @@ liquidCapacity: 25
 range: 200
 recoil: 0
 rotateSpeed: 5
+ammoTypes: {
+	copper: placeholder
+}
