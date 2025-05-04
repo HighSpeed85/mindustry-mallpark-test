@@ -1,0 +1,22 @@
+category: turret
+type: ItemTurret
+name: Clockwise
+description: "Fires bullets in eight different directions."
+health: 1200
+size: 3
+requirements: [
+  copper/200
+	titanium/200
+	plastanium/100
+]
+consumes: {
+	coolant: {
+		amount: 0.5
+	}
+}
+coolantMultiplier: 3
+hasLiquids: true
+liquidCapacity: 25
+range: 200
+recoil: 0
+rotateSpeed: 5
