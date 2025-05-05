@@ -39,6 +39,7 @@ shoot: {
 }
 shootY: 0
 ammoTypes: {
+	plastinium: placeholder
 	pyratite: {
 		type: BasicBulletType
 		ammoMultiplier: 4
@@ -51,9 +52,9 @@ ammoTypes: {
 		collidesAir: false
 		status: burning
 		damage: 15
-		statusDuration: 4
-		shootEffect: shootSmallFlame
-		hitEffect: hitFlameSmall
+		statusDuration: 240
+		shootEffect: shootSmallSmoke
+		trailEffect: incendTrail
 		status: burning
 	}
 }
