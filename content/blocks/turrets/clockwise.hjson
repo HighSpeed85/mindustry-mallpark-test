@@ -20,12 +20,12 @@ liquidCapacity: 25
 range: 200
 recoil: 0
 rotateSpeed: 5
-reload: 20
+reload: 40
 consumeAmmoOnce: false
 shoot: {
 	type: ShootBarrel
-	shots: 8
-	shotDelay: 6
+	shots: 9
+	shotDelay: 8
 	barrels: [
 	0,0,0
 	0,0,315
