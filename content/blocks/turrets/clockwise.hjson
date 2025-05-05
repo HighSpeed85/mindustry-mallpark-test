@@ -24,7 +24,7 @@ reload: 40
 consumeAmmoOnce: false
 shoot: {
 	type: ShootBarrel
-	shots: 9
+	shots: 8
 	shotDelay: 8
 	barrels: [
 	0,0,0
