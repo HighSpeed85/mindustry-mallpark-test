@@ -37,7 +37,7 @@ shoot: {
 }
 shots: 8
 shotDelay: 6
-shootY: 14
+shootY: 8
 ammoTypes: {
 	copper: placeholder
 }
