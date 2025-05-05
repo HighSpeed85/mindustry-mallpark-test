@@ -40,4 +40,24 @@ shotDelay: 6
 shootY: 8
 ammoTypes: {
 	copper: placeholder
+	pyratite: {
+		type: MultiBulletType
+		bullets: [
+		placeholder
+		{
+			ammoMultiplier: 3
+                    	hitSize: 7
+                    	lifetime: 18
+                    	pierce: true
+                    	collidesAir: false
+                   	statusDuration: 4
+                    	shootEffect: shootSmallFlame
+                    	hitEffect: hitFlameSmall
+                    	despawnEffect: none
+                    	status: burning
+                    	keepVelocity: false
+                    	hittable: false
+		}
+		]
+	}
 }
