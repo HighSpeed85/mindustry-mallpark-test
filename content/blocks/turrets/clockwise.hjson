@@ -42,13 +42,27 @@ ammoTypes: {
 	copper: placeholder
 	pyratite: {
 		type: MultiBulletType
+		ammoMultiplier: 4
 		bullets: [
-		placeholder
+		{
+			width: 4
+			height: 9
+			type: BasicBulletType
+			speed: 6
+			damage: 2
+			shootEffect: shootSmall
+			sprite: bullet
+			lifetime: 40
+			collidesGround: true
+			collidesAir: false
+			status: burning
+		}
 		{
 			ammoMultiplier: 3
                     	hitSize: 7
                     	lifetime: 18
                     	pierce: true
+			damage: 15
                     	collidesAir: false
                    	statusDuration: 4
                     	shootEffect: shootSmallFlame
