@@ -41,36 +41,21 @@ shootY: 8
 ammoTypes: {
 	copper: placeholder
 	pyratite: {
-		type: MultiBulletType
+		type: BasicBulletType
 		ammoMultiplier: 4
-		bullets: [
-		{
-			width: 4
-			height: 9
-			type: BasicBulletType
-			speed: 6
-			damage: 2
-			shootEffect: shootSmall
-			sprite: bullet
-			lifetime: 40
-			collidesGround: true
-			collidesAir: false
-			status: burning
-		}
-		{
-			ammoMultiplier: 3
-                    	hitSize: 7
-                    	lifetime: 18
-                    	pierce: true
-			damage: 15
-                    	collidesAir: false
-                   	statusDuration: 4
-                    	shootEffect: shootSmallFlame
-                    	hitEffect: hitFlameSmall
-                    	despawnEffect: none
-                    	status: burning
-                    	keepVelocity: false
-                    	hittable: false
+		width: 6
+		height: 6
+		speed: 6
+		sprite: bullet
+		lifetime: 40
+		collidesGround: true
+		collidesAir: false
+		status: burning
+		damage: 15
+		statusDuration: 4
+		shootEffect: shootSmallFlame
+		hitEffect: hitFlameSmall
+		status: burning
 		}
 		]
 	}
