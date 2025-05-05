@@ -55,6 +55,5 @@ ammoTypes: {
 		shootEffect: shootSmallFlame
 		hitEffect: hitFlameSmall
 		status: burning
-		}
 	}
 }
