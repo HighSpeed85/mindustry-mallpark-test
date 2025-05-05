@@ -39,7 +39,6 @@ shots: 8
 shotDelay: 6
 shootY: 8
 ammoTypes: {
-	copper: placeholder
 	pyratite: {
 		type: BasicBulletType
 		ammoMultiplier: 4
@@ -57,6 +56,5 @@ ammoTypes: {
 		hitEffect: hitFlameSmall
 		status: burning
 		}
-		]
 	}
 }
