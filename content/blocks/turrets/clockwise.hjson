@@ -39,7 +39,7 @@ shoot: {
 }
 shootY: 0
 ammoTypes: {
-	plastinium: placeholder
+	plastanium: placeholder
 	pyratite: {
 		type: BasicBulletType
 		ammoMultiplier: 4
