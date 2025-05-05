@@ -5,7 +5,7 @@ description: "Fires bullets in eight different directions."
 health: 1200
 size: 3
 requirements: [
-  copper/200
+	copper/200
 	titanium/200
 	plastanium/100
 ]
@@ -24,6 +24,8 @@ reload: 20
 consumeAmmoOnce: false
 shoot: {
 	type: ShootBarrel
+	shots: 8
+	shotDelay: 6
 	barrels: [
 	0,0,0
 	0,0,315
@@ -35,8 +37,6 @@ shoot: {
 	0,0,45
 	]
 }
-shots: 8
-shotDelay: 6
 shootY: 8
 ammoTypes: {
 	pyratite: {
