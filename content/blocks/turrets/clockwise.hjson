@@ -29,7 +29,7 @@ shoot: {
 	barrels: [
 	0,0,0
 	0,0,315
-	10,10,270
+	0,16,270
 	0,0,225
 	0,-10,180
 	0,0,135
@@ -37,7 +37,7 @@ shoot: {
 	0,0,45
 	]
 }
-shootY: 4
+shootY: 0
 ammoTypes: {
 	pyratite: {
 		type: BasicBulletType
