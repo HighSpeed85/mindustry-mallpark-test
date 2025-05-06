@@ -25,16 +25,16 @@ consumeAmmoOnce: false
 shoot: {
 	type: ShootBarrel
 	shots: 8
-	shotDelay: 6
+	shotDelay: 4
 	barrels: [
 	0,12,0
-	8,8,315
+	9,9,315
 	12,0,270
-	8,-8,225
+	9,-9,225
 	0,-12,180
-	-8,-8,135
+	-9,-9,135
 	-12,0,90
-	-8,8,45
+	-9,9,45
 	]
 }
 shootY: 0
