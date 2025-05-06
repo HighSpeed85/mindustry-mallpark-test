@@ -46,7 +46,7 @@ ammoTypes: {
 		ammoMultiplier: 4
 		width: 8
 		height: 8
-		speed: 3
+		speed: 2.25
 		sprite: bullet
 		lifetime: 30
 		collidesAir: false
