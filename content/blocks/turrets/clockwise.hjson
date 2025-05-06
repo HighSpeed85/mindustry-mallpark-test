@@ -17,7 +17,7 @@ consumes: {
 coolantMultiplier: 2.3
 hasLiquids: true
 liquidCapacity: 25
-range: 70
+range: 82
 recoil: 0
 rotateSpeed: 5
 reload: 45
@@ -72,8 +72,8 @@ ammoTypes: {
 		width: 10
 		height: 10
 		damage: 11
-		speed: 2.5
-		lifetime: 28
+		speed: 2.6
+		lifetime: 31.5
 		fragBullets: 8
 		fragBullet: {
 			width: 8
