@@ -14,27 +14,27 @@ consumes: {
 		amount: 0.5
 	}
 }
-coolantMultiplier: 3
+coolantMultiplier: 2.3
 hasLiquids: true
 liquidCapacity: 25
 range: 200
 recoil: 0
 rotateSpeed: 5
-reload: 40
+reload: 38
 consumeAmmoOnce: false
 shoot: {
 	type: ShootBarrel
 	shots: 8
-	shotDelay: 8
+	shotDelay: 6
 	barrels: [
 	0,12,0
-	6,6,315
+	8,8,315
 	12,0,270
-	6,-6,225
+	8,-8,225
 	0,-12,180
-	-6,-6,135
+	-8,-8,135
 	-12,0,90
-	-6,6,45
+	-8,8,45
 	]
 }
 shootY: 0
@@ -43,9 +43,9 @@ ammoTypes: {
 	pyratite: {
 		type: BasicBulletType
 		ammoMultiplier: 4
-		width: 6
-		height: 6
-		speed: 6
+		width: 8
+		height: 8
+		speed: 4
 		sprite: bullet
 		lifetime: 40
 		collidesGround: true
