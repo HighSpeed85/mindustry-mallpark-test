@@ -17,7 +17,7 @@ consumes: {
 coolantMultiplier: 2.3
 hasLiquids: true
 liquidCapacity: 25
-range: 67.5
+range: 70
 recoil: 0
 rotateSpeed: 5
 reload: 45
@@ -28,14 +28,14 @@ shoot: {
 	shots: 8
 	shotDelay: 4
 	barrels: [
-	0,12,0
-	9,9,315
-	12,0,270
-	9,-9,225
-	0,-12,180
-	-9,-9,135
-	-12,0,90
-	-9,9,45
+		0,12,0
+		9,9,315
+		12,0,270
+		9,-9,225
+		0,-12,180
+		-9,-9,135
+		-12,0,90
+		-9,9,45
 	]
 }
 shootY: 0
@@ -70,14 +70,15 @@ ammoTypes: {
 	plastanium: {
 		width: 10
 		height: 10
-		speed: 2.25
+		speed: 2.5
+		lifetime: 28
 		damage: 8
 		type: BasicBulletType
 		fragBullet: {
-			width: 10
-            		height: 12
+			width: 8
+            		height: 10
             		shrinkY: 1
-			speed: 2.5
+			speed: 2
             		lifetime: 15
             		backColor: d8d97f
             		frontColor: fffac6
@@ -85,7 +86,6 @@ ammoTypes: {
 		}
 		fragBullets: 8
 		sprite: bullet
-		lifetime: 30
 		shootEffect: shootBig
 		ammoMultiplier: 4
 		splashDamage: 40
