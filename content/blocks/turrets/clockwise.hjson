@@ -49,13 +49,13 @@ ammoTypes: {
 		type: BasicBulletType
 		fragBullet: {
 			width: 5
-            		height: 12
-            		shrinkY: 1
-            		lifetime: 20
+			height: 12
+			shrinkY: 1
+			lifetime: 20
 			speed: 3
-            		backColor: 454545
-            		frontColor: ffffff
-            		despawnEffect: none
+			backColor: 454545
+			frontColor: ffffff
+			despawnEffect: none
 		}
 		fragBullets: 4
 		sprite: bullet
@@ -68,31 +68,31 @@ ammoTypes: {
 		collidesAir: false
 	}
 	plastanium: {
+		type: BasicBulletType
 		width: 10
 		height: 10
+		damage: 11
 		speed: 2.5
 		lifetime: 28
-		damage: 8
-		type: BasicBulletType
+		fragBullets: 8
 		fragBullet: {
 			width: 8
-            		height: 10
-            		shrinkY: 1
+			height: 10
+			shrinkY: 1
 			speed: 2
-            		lifetime: 15
-            		backColor: d8d97f
-            		frontColor: fffac6
-            		despawnEffect: none
+			lifetime: 15
+			backColor: d8d97f
+			frontColor: fffac6
+			despawnEffect: none
 		}
-		fragBullets: 8
 		sprite: bullet
 		shootEffect: shootBig
 		ammoMultiplier: 4
 		splashDamage: 40
 		hitEffect: plasticExplosion
-		splashDamageRadius: 24
+		splashDamageRadius: 34
 		backColor: d8d97f
-        	frontColor: fffac6
+		frontColor: fffac6
 		collidesAir: false
 	}
 	// area attack
