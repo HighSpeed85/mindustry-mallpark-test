@@ -20,7 +20,8 @@ liquidCapacity: 25
 range: 200
 recoil: 0
 rotateSpeed: 5
-reload: 38
+reload: 45
+targetAir: false
 consumeAmmoOnce: false
 shoot: {
 	type: ShootBarrel
@@ -45,14 +46,13 @@ ammoTypes: {
 		ammoMultiplier: 4
 		width: 8
 		height: 8
-		speed: 4
+		speed: 3
 		sprite: bullet
-		lifetime: 40
-		collidesGround: true
+		lifetime: 30
 		collidesAir: false
 		status: burning
 		damage: 15
-		statusDuration: 240
+		statusDuration: 360
 		shootEffect: shootSmallSmoke
 		trailEffect: incendTrail
 		status: burning
