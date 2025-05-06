@@ -71,7 +71,7 @@ ammoTypes: {
 		type: BasicBulletType
 		width: 10
 		height: 10
-		damage: 11
+		damage: 6
 		speed: 2.6
 		lifetime: 31.5
 		fragBullets: 8
@@ -88,7 +88,7 @@ ammoTypes: {
 		sprite: bullet
 		shootEffect: shootBig
 		ammoMultiplier: 4
-		splashDamage: 40
+		splashDamage: 45
 		hitEffect: plasticExplosion
 		splashDamageRadius: 34
 		backColor: d8d97f
@@ -96,6 +96,22 @@ ammoTypes: {
 		collidesAir: false
 	}
 	// area attack
+	graphite: {
+		type: BasicBulletType
+		width: 8
+		height: 9
+		speed: 2.85
+		lifetime: 28.8
+		ammoMultiplier: 4
+		splashDamage: 40
+		splashDamageRadius: 41
+		hitEffect: hitBulletColor
+		despawnEffect: hitBulletColor
+		hitColor: 7d89d8
+		backColor: 7d89d8
+		trailColor: 7d89d8
+		frontColor: dae1ee
+	}
 	blast-compound: {
 		width: 8
 		height: 8
