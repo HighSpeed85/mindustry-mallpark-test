@@ -24,6 +24,7 @@ reload: 45
 targetAir: false
 inaccuracy: 2
 consumeAmmoOnce: false
+shootCone: 360
 shoot: {
 	type: ShootBarrel
 	shots: 8
@@ -91,7 +92,7 @@ ammoTypes: {
 		ammoMultiplier: 4
 		splashDamage: 45
 		hitEffect: plasticExplosion
-		splashDamageRadius: 34
+		splashDamageRadius: 33
 		backColor: d8d97f
 		frontColor: fffac6
 		collidesAir: false
