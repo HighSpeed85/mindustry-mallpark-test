@@ -133,7 +133,7 @@ ammoTypes: {
 		status: blasted
 		statusDuration: 240
 	}
-	// special
+	// special surprises
 	pyratite: {
 		type: BasicBulletType
 		ammoMultiplier: 4
